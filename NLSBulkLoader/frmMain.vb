@@ -332,6 +332,8 @@ Public Class frmMain
             Console.WriteLine(Ex.ToString())
         End Try
 
+        MsgBox("If you're planning to add new rows using this CSV file, leave the column ID EMPTY for those new lines", MsgBoxStyle.Information, "Important")
+
     End Sub
 
     Private Sub ExportXML(NlsItems As List(Of NlsItem))
